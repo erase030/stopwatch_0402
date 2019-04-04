@@ -18,8 +18,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="0" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0y-bZ-63h">
-                                <rect key="frame" x="167.5" y="294.5" width="40" height="78"/>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="00:00:00" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="P0y-bZ-63h">
+                                <rect key="frame" x="52" y="294.5" width="271" height="78"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="65"/>
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
@@ -64,6 +64,9 @@
                     </view>
                     <connections>
                         <outlet property="lbl" destination="P0y-bZ-63h" id="pvj-UA-YmD"/>
+                        <outlet property="pauseBtn" destination="zfs-m5-Ezw" id="kBR-hy-Ynu"/>
+                        <outlet property="playBtn" destination="5PR-q3-5Hm" id="Mjg-ty-hHx"/>
+                        <outlet property="stopBtn" destination="P0L-M6-7uD" id="Bdo-C0-XlT"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
